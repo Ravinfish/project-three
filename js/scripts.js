@@ -15,8 +15,11 @@ function beepBoop(number) {
   if (numArray.includes("1")) {
     return "Beep!"
   }
-  if (numArray.includes("2")) {
+  else if (numArray.includes("2")) {
     return "Boop!"
+  }
+  else if (numArray.includes("3")) {
+    return "Won't you be my neighbor?"
   }
 };
 
