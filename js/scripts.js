@@ -15,6 +15,9 @@ function beepBoop(number) {
   if (numArray.includes("1")) {
     return "Beep!"
   }
+  if (numArray.includes("2")) {
+    return "Boop!"
+  }
 };
 
 
