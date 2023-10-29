@@ -1,17 +1,26 @@
 // Business Logic
 
 function beepBoop(number) {
-  const numArray = number.toString().split(" ")
-  if (numArray.includes("3")) {
+  const numArray = number.toString().split('')
+  if (numArray.includes('3')) {
     return "Won't you be my neighbor?"
-  } else if (numArray.includes("2")) {
+  } else if (numArray.includes('2')) {
     return "Boop!"
-  } else if (numArray.includes("1")) {
+  } else if (numArray.includes('1')) {
     return "Beep!"
   } else {
     return number;
   }
-}
+};
+
+function pickANum(inputNumber) {
+  const output = [];
+  for (let i = 0; i <= inputNumber; i++) {
+    output.push(beepBoop(i));
+  }
+  return output;
+};
+
 
 // function pickANum(number) {
 //   const output = [];
