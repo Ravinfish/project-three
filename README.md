@@ -16,9 +16,9 @@ Test: "It should replace numbers that contain a "3" with "Won't you be my neighb
 Code: beepBoop(3);
 Expected Output:
 
-Test: "It should 
-Code:
-Expected Output:
+Test: "It should replace numbers that contain "1" "2" or "3" based off inputted number"
+Code:pickANum(15)
+Expected Output:[0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', "Won't you be my neighbor?", 'Beep!', 'Beep!']
 
 Test:
 Code:
