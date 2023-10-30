@@ -33,3 +33,27 @@ For example, all digits of the number 2, 24, or 2099 would be replaced with "Boo
 For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"
 For example, all digits of the number 39, 3, or 8763 would be replaced with "Won't you be my neighbor?"
 
+# Mr. Roboger's Neighborhood
+By Ravin Fisher
+
+### This is to practice loops and arrays
+
+#### Technologies Used
+* HTML
+* CSS
+* Javascript
+
+### Description
+This is an application that you input a number and it should provide a result
+
+### Setup/Installation Requirements
+Clone this repository to your desktop
+Navigate to the top of the repository
+Open index.html in your browser
+
+### Known Bugs
+Submit will not work
+
+### License
+MIT
+Copyright (c) 2023 Ravin Fisher
