@@ -55,5 +55,5 @@ This is an application that you input a number and it should provide a result
 Submit will not work
 
 ### License
-MIT
+_[MIT](LICENSE)_
 Copyright (c) 2023 Ravin Fisher
