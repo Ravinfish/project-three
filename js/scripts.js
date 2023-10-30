@@ -50,4 +50,16 @@ function pickANum(inputNumber) {
 //   return numReplacer;
 // };
 
+// UI Logic
+
+function handleFormSubmission(e) {
+  const form = document.querySelector("form")
+form.addEventListener("submit", function(e){
+  e.preventDefault();
+  const result = document.getElementById("result");
+  result.append(output);
+}
+)};
+
+
 
