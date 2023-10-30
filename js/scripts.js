@@ -53,13 +53,19 @@ function pickANum(inputNumber) {
 // UI Logic
 
 function handleFormSubmission(e) {
-  const form = document.querySelector("form")
-form.addEventListener("submit", function(e){
   e.preventDefault();
-  const result = document.getElementById("result");
-  result.append(output);
-}
-)};
+    const number = parseInt(document.getElementById("numSelect").value);
+    const result = document.getElementById("result");
+    const p = document.createElement("p");
+    const numResult = output(number);
+    p.append(numResult);
+    result.append(p);
+  }
+
+  window.addEventListener("load", function() {
+    const form = document.querySelector("form");
+    form.addEventListener("submit", handleFormSubmission);
+  });
 
 
 
