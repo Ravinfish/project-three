@@ -47,9 +47,9 @@ By Ravin Fisher
 This is an application that you input a number and it should provide a result
 
 ### Setup/Installation Requirements
-Clone this repository to your desktop
-Navigate to the top of the repository
-Open index.html in your browser
+* Clone this repository to your desktop
+* Navigate to the top of the repository
+* Open index.html in your browser
 
 ### Known Bugs
 Submit will not work
